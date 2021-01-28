@@ -1,0 +1,66 @@
+# English translations for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-01-28 21:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+msgid "_spec.name"
+msgstr "Load HTML from URL"
+
+msgid "_spec.description"
+msgstr ""
+"Scrape the entire HTML from a webpage to be able to search its content or"
+" monitor changes."
+
+msgid "_spec.parameters.urlsource.options.paged.label"
+msgstr "URL"
+
+msgid "_spec.parameters.urlsource.options.list.label"
+msgstr "List of URLs"
+
+msgid "_spec.parameters.urlsource.options.column.label"
+msgstr "Input column"
+
+msgid "_spec.parameters.urllist.placeholder"
+msgstr "Enter URLs here, newline-separated."
+
+msgid "_spec.parameters.pagedurl.placeholder"
+msgstr "http://..."
+
+msgid "_spec.parameters.addpagenumbers.name"
+msgstr "Series of numbered pages"
+
+msgid "_spec.parameters.pagetext1.name"
+msgstr "Enter the base URL without numbers, e.g. http://site.com/info?page="
+
+msgid "_spec.parameters.pagetext2.name"
+msgstr "Then add page numbers below (10 max)"
+
+msgid "_spec.parameters.startpage.name"
+msgstr "First page number"
+
+msgid "_spec.parameters.endpage.name"
+msgstr "Last page number"
+
+msgid "_spec.parameters.version_select.name"
+msgstr "Scrape"
+
+#: urlscraper.py:138
+msgid "params.limitedNUrls"
+msgstr "We limited your scrape to {nUrls} URLs"
+

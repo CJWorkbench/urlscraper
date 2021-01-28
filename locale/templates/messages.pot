@@ -1,0 +1,57 @@
+#. default-message: Load HTML from URL
+msgid "_spec.name"
+msgstr ""
+
+#. default-message: Scrape the entire HTML from a webpage to be able to search its content or monitor changes.
+msgid "_spec.description"
+msgstr ""
+
+#. default-message: URL
+msgid "_spec.parameters.urlsource.options.paged.label"
+msgstr ""
+
+#. default-message: List of URLs
+msgid "_spec.parameters.urlsource.options.list.label"
+msgstr ""
+
+#. default-message: Input column
+msgid "_spec.parameters.urlsource.options.column.label"
+msgstr ""
+
+#. default-message: Enter URLs here, newline-separated.
+msgid "_spec.parameters.urllist.placeholder"
+msgstr ""
+
+#. default-message: http://...
+msgid "_spec.parameters.pagedurl.placeholder"
+msgstr ""
+
+#. default-message: Series of numbered pages
+msgid "_spec.parameters.addpagenumbers.name"
+msgstr ""
+
+#. default-message: Enter the base URL without numbers, e.g. http://site.com/info?page=
+msgid "_spec.parameters.pagetext1.name"
+msgstr ""
+
+#. default-message: Then add page numbers below (10 max)
+msgid "_spec.parameters.pagetext2.name"
+msgstr ""
+
+#. default-message: First page number
+msgid "_spec.parameters.startpage.name"
+msgstr ""
+
+#. default-message: Last page number
+msgid "_spec.parameters.endpage.name"
+msgstr ""
+
+#. default-message: Scrape
+msgid "_spec.parameters.version_select.name"
+msgstr ""
+
+#. default-message: We limited your scrape to {nUrls} URLs
+#: urlscraper.py:138
+msgid "params.limitedNUrls"
+msgstr ""
+
