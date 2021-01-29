@@ -7,7 +7,6 @@
   "loads_data": true,
   "uses_data": true,
   "help_url":"modules/scrape/html-scraper",
-  "parameters_version": 3,
   "parameters": [
     {
       "name": "",
