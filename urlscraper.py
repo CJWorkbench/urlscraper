@@ -209,9 +209,9 @@ def fetch(params, *, get_input_dataframe, settings):
             # TODO use response date, not current date
             # TODO migrate to use timestamp type, not text (will affect
             # existing users)
-            "date": utcnow().isoformat(timespec="seconds") + "Z",
-            "status": "",
-            "html": "",
+            "date": [utcnow().isoformat(timespec="seconds") + "Z"] * len(urls),
+            "status": [""] * len(urls),
+            "html": [""] * len(urls),
         }
     )
 
