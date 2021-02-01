@@ -40,7 +40,7 @@ def _as_text(buf: bytes, headers: List[Tuple[str, str]]) -> str:
         content_type = extract_first_header(headers, "Content-Type")
     else:
         # httpx Response headers
-        content_type = headers["Content-Type"]
+        content_type = headers.get("Content-Type")
     if content_type and "charset=" in content_type:
         charset = content_type.split("charset=")[1]
     else:
